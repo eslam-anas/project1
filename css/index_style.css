@@ -1,0 +1,360 @@
+
+.navbar-collapse
+{
+    border-right: 1px solid dimgray;
+}
+.nav-icon .n-icon
+{
+    list-style: none;
+    align-items: center;
+    padding-top: .7rem;
+    
+}
+.navbar img
+{
+    width: 100px;
+    height: 50px;
+}
+
+
+.nav-icon .n-icon li
+{
+   
+    padding-right: 1rem;
+    display: inline-block;
+
+}
+
+.home .carousel-inner
+{
+    height: 600px;
+
+    
+}
+.carousel-inner .carousel-captions
+{
+   
+    color: #000;
+   text-align: center;
+   position: absolute;
+    top: 250px;
+    left: 300px;
+    z-index: 100;
+    color: #fff;
+    
+}
+.carousel-inner .carousel-captions h5
+{
+    font-size: 100px;
+}
+
+.title p
+
+{
+    font-weight: 300;
+font-size: 24px;    
+}
+ 
+ .split-section .img
+ {
+
+     background-image: url(../images/bg-image-30.jpg);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     width: 100%;
+     height:100%;
+     position: absolute;
+     top: 0;
+     
+     
+    
+     
+ }
+ .split-section .img-side
+{
+    padding: 0;
+     right: 0;
+     overflow: hidden;
+     position: absolute !important;
+     height: 100%;
+     
+     bottom: 0;
+    
+     
+}
+section
+{
+    padding-top:100px ;
+    border-top: 1px solid #eee;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+
+.split-section p
+{
+    line-height: 28px;
+    
+}
+.team-layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    background-color: rgba(0, 195, 218, 0.9);
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    visibility: hidden;
+    transition: all  ease;
+    
+}
+.team-member:hover .team-layer
+{
+    visibility:visible;
+    opacity: 1;
+    transform: scale(1);
+   
+    
+}
+.team-icon
+{
+    list-style: none;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    margin-top: 0;
+    
+}
+.team-icon li
+{
+    display:inline-block;
+}
+.team-info
+{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+   
+}
+.team-img
+{
+    position: relative;
+}
+.team-member
+{
+    position: relative;
+}
+
+
+.services
+{
+    background-image: url(../images/bg-image-26.jpg);
+    background-size: cover;
+    background-position:50% 50%;
+
+}
+.img-layer
+{
+position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #222222;
+}
+
+
+.services
+{
+    color: #fff;
+}
+
+.services .icon-box
+{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+
+}
+.services .sur-icon h4
+{
+    font-size: 13px;
+}
+.mt-25
+{
+    margin-top: 25px;
+}
+.mb-25
+{
+    margin-bottom: 25px;
+}
+
+
+.pt-50
+{
+    padding-top: 50px;
+}
+.filters
+{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
+
+.work .filters li
+{
+    display: inline-block;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0 5px;
+   
+}
+.brands
+{
+    position: relative;
+    overflow: hidden;
+   
+}
+.brands img
+{
+    overflow: hidden;
+    transition: transform  1s ;
+}
+.br-img
+{
+    overflow: hidden;
+}
+
+.work-info
+{
+    position: absolute;
+    top: auto;
+    background: #fff;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    padding: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: all .3s ease;
+   
+}
+.brands:hover .work-info
+{
+    right: 30px;
+    bottom: 20px;
+    left: 30px;
+    opacity: 1;
+   
+}
+.brands:hover img
+{
+    transform: scale(1.3);
+}
+.price
+{
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+.price span
+{
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: top;
+}
+.price h2
+{
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -6px;
+}
+.card-body
+{
+    text-align: left;
+}
+.card-body .p-features
+{
+   padding-left: 0;
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.p-features li
+{
+    padding: 8px 0;
+}
+
+.customers .carousel-item
+{
+    padding-top: 4rem ;
+   
+    padding: 75px 100px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: visible;
+    float: none;
+
+}
+
+.customers .carousel-inner img
+{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+
+}
+
+
+
+.customers .carousel-caption
+{
+   
+    position: static;
+    color: black;
+}
+
+.carousel-indicators li 
+{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
